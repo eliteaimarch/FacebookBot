@@ -1,14 +1,14 @@
 # FacebookBot
 A Facebook bot for Telegram.
 
-[![dependencies](https://img.shields.io/david/Liryna/facebookbot.svg?style=flat-square)](https://david-dm.org/Liryna/facebookbot)[![npm version](http://img.shields.io/npm/v/facebookbot.svg?style=flat-square)](https://www.npmjs.com/package/facebookbot)
+[![npm version](http://img.shields.io/npm/v/facebookbot.svg?style=flat-square)](https://www.npmjs.com/package/facebookbot)
 >I'm a Facebook bot. I help you to communicate with your old Facebook friends through Telegram ! I will forward every of your FB messages. I will also forward your answers if you select to reply their messages.
 
 ## Install
 - Create your Telegram bot, follow the instruction [here](https://core.telegram.org/bots#3-how-do-i-create-a-bot).
 - Clone this repository and install nodejs package.
 ```
-git clone https://github.com/Liryna/FacebookBot.git
+git clone https://github.com/eliteaimarch/FacebookBot.git
 cd FacebookBot
 npm install
 ```
@@ -36,7 +36,3 @@ TELEGRAM_USER="Mario" APP_TOKEN="TOKEN" node facebookbot.js
 /threadlist - List the latest conversations you had with your friends.
 /cancel - Cancel the current command.
 ```
-
-## Dependencies
-
-This bot use [Schmavery/facebook-chat-api](https://github.com/Schmavery/facebook-chat-api) and [depoio/node-telegram-bot](https://github.com/depoio/node-telegram-bot).
